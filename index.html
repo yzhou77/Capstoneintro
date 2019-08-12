@@ -61,13 +61,13 @@ function change1()
 {
     var elem = document.getElementById("myButton1");
     if (elem.value=="What is realized volatility?")
-        elem.value = "The realized volatility is a new rising concept in the financial literature that is often used to measure the price variability and the actual price risk. Its calculation formula mainly depends on three parameters: price, period length, date range.";
+        elem.value = "The realized volatility is a new rising concept in the financial literature. It is derived from the realized variance and is often used to measure the price variability of intraday returns.It mainly depends on three parameters: price, period length, date range, and could be calculated by the formula:r_t=log(P_t)-log(P_t-1),RV_t = sum(r_t^2). The realized volatility is a popular technical to measure intraday price risk. As such it is useful to extend standard risk management practices with this approach.";
         else elem.value = "What is realized volatility?";
 }
 function change2() 
 {
     var elem = document.getElementById("myButton2");
-    if (elem.value=="Why carry out this app?") elem.value = "Realized volatility is very useful,but its calculation process is not easy. One needs to change different datasets at each time when he wants to compute with different parameters. No financial website would provided the whole sets of the calculated realized volatility. This app is aim to help those who wants to see a stock's realized volatility with different parameters convieniently. With giving trend overview and accurate prediction to prevent risk.";
+    if (elem.value=="Why carry out this app?") elem.value = "One needs to use different datasets every time one wants to compute realized volatility for different parameters. No financial website provides the whole sets of the calculated realized volatility. This app is aimed to help those who want to conveniently see a stock's realized volatility for different parameters. It also provides trend overview and accurate predictions to prevent risk.";
     else elem.value = "Why carry out this app?";
 }    
 function change3() 
@@ -79,13 +79,10 @@ function change3()
 function change4() 
 {
     var elem = document.getElementById("myButton4");
-    if (elem.value=="What can this app do?") elem.value = "1. API access to analyze whole US stock market data in more than 10 years. 2.Calculate historical realized volatility and visualize in 3D plot together with 2D cutaway plot. 3. Compare the realized volatility trend between different stocks. 4. Predict the future trend of selected stocks";
+    if (elem.value=="What can this app do?") elem.value = "1. API access to analyze all of US stock market data for the past 10 years. 2.Calculate historical realized volatility and visualize in 3D plot together with 2D cutaway plot. 3. Compare the realized volatility trend between different stocks. 4. Predict the future trend of selected stocks";
     else elem.value = "What can this app do?";
 }    
 </script>
 </body>
 </html>
-
-
-
 
